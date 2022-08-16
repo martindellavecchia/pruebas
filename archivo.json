@@ -1,26 +1,26 @@
 [
  {
   "nombre": "Cynthia",
-  "apellido": "Brinkman",
-  "dni": 30975723,
+  "apellido": "Chim",
+  "dni": 12312311,
   "colorFavorito": "rosa"
  },
  {
   "nombre": "Augusto",
-  "apellido": "Della Vecchia",
+  "apellido": "Surango",
   "dni": 54000001,
   "colorFavorito": "rojo"
  },
  {
   "nombre": "Fausto",
-  "apellido": "Della Vecchia",
+  "apellido": "Romero",
   "dni": 58000002,
   "colorFavorito": "azul"
  },
  {
   "nombre": "Tincho",
-  "apellido": "Della Vecchia",
-  "dni": "28963630",
+  "apellido": "dela patin",
+  "dni": 12312312,
   "colorFavorito": "violeta"
  }
 ]
