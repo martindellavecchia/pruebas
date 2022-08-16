@@ -1,0 +1,26 @@
+[
+ {
+  "nombre": "Cynthia",
+  "apellido": "Brinkman",
+  "dni": 30975723,
+  "colorFavorito": "rosa"
+ },
+ {
+  "nombre": "Augusto",
+  "apellido": "Della Vecchia",
+  "dni": 54000001,
+  "colorFavorito": "rojo"
+ },
+ {
+  "nombre": "Fausto",
+  "apellido": "Della Vecchia",
+  "dni": 58000002,
+  "colorFavorito": "azul"
+ },
+ {
+  "nombre": "Tincho",
+  "apellido": "Della Vecchia",
+  "dni": "28963630",
+  "colorFavorito": "violeta"
+ }
+]
