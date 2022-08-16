@@ -21,6 +21,13 @@ let fun = {
         return persona;
     },
 
+    listarPersonas : function (lista){
+        console.log("\n*************** Lista de personas *************************")
+        lista.forEach(function (elemento){
+            console.log(`Nombre y apellido: ${elemento.nombre}, ${elemento.apellido}`);
+        })
+    },
+
     abrirArchivo: function () {
         let fs = require("fs")
         let per = fs.readFileSync("./archivo.json", "utf-8")

@@ -11,5 +11,18 @@ switch(parametro){
         let nuevoArray = funciones.borrarPersona(personas, argv[3]);
         funciones.escribirArchivo(nuevoArray);
         break;
-        
+    case undefined:
+        console.log("\n***************************")
+        console.log("Debes ingresar un parametro")
+        console.log("***************************\n")
+        break;
+    case "listar":
+        funciones.listarPersonas(personas);
+        break
+        default:
+        console.log("\n***********************************************************")
+        console.log("La lista de comandos disponibles es: nuevo, borrar, listar")
+        console.log("***********************************************************\n")
+        break;
+
 }
