@@ -20,7 +20,12 @@ let fun = {
         })
         return persona;
     },
+    modificarPersona: function(campo, valor, dni, arrayPersonas){
+        let per = fun.buscarPorDNI(dni, arrayPersonas);
+        let nuevoPer = per.campo = valor;
+        console.log(nuevoPer);
 
+    },
     listarPersonas : function (lista){
         console.log("\n*************** Lista de personas *************************")
         lista.forEach(function (elemento){

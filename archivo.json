@@ -1,9 +1,10 @@
 [
  {
-  "nombre": "Cynthia",
+  "nombre": "juan",
   "apellido": "Chim",
   "dni": 12312311,
-  "colorFavorito": "rosa"
+  "colorFavorito": "rosa",
+  "campo": "antonio"
  },
  {
   "nombre": "Augusto",
@@ -28,5 +29,17 @@
   "apellido": "Peralta",
   "dni": "35234532",
   "colorFavorito": "azul"
+ },
+ {
+  "nombre": "Zulema",
+  "apellido": "Cataneo",
+  "dni": "11293405",
+  "colorFavorito": "marron"
+ },
+ {
+  "nombre": "Silva",
+  "apellido": "Spindola",
+  "dni": "8394930",
+  "colorFavorito": "celeste"
  }
 ]

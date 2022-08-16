@@ -1,4 +1,5 @@
 const { argv } = require("process");
+const { modificarPersona } = require("./funciones.js");
 let funciones   = require("./funciones.js")
 let personas = funciones.abrirArchivo();
 let parametro = process.argv[2];
@@ -10,6 +11,9 @@ switch(parametro){
        console.log("Entrada agregada")
        console.log("****************\n")
         break;
+    case "modificar":
+        modificarPersona(argv[3], argv[4], argv[5], personas);
+        
     case "borrar":
         let nuevoArray = funciones.borrarPersona(personas, argv[3]);
         funciones.escribirArchivo(nuevoArray);
