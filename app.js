@@ -6,6 +6,9 @@ switch(parametro){
     case "nuevo" :
         let newPpl = new funciones.NuevaPersona(argv[3], argv[4], argv[5], argv[6])
        funciones.armarArchivo(newPpl);
+       console.log("\n****************")
+       console.log("Entrada agregada")
+       console.log("****************\n")
         break;
     case "borrar":
         let nuevoArray = funciones.borrarPersona(personas, argv[3]);
