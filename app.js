@@ -13,8 +13,11 @@ switch(parametro){
         break;
     case "modificar":
         modificarPersona(argv[3], argv[4], argv[5], personas);
+        //aca el guardado en el archivo.
         
-    case "borrar":
+        break;
+
+     case "borrar":
         let nuevoArray = funciones.borrarPersona(personas, argv[3]);
         funciones.escribirArchivo(nuevoArray);
         break;

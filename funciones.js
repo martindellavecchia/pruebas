@@ -1,5 +1,5 @@
 let fun = {
-    
+
     NuevaPersona: function (nombre, apellido, dni, colorFavorito) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -20,10 +20,11 @@ let fun = {
         })
         return persona;
     },
-    modificarPersona: function(campo, valor, dni, arrayPersonas){
+    modificarPersona: function(cualquierClave, suValor, dni, arrayPersonas){
         let per = fun.buscarPorDNI(dni, arrayPersonas);
-        let nuevoPer = per.campo = valor;
-        console.log(nuevoPer);
+        per[`${cualquierClave}`] = suValor;
+        console.log(per);
+        
 
     },
     listarPersonas : function (lista){
