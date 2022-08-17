@@ -14,7 +14,7 @@ switch(parametro){
     case "modificar":
         modificarPersona(argv[3], argv[4], argv[5], personas);
         //aca el guardado en el archivo.
-        
+        //
         break;
 
      case "borrar":
@@ -30,9 +30,9 @@ switch(parametro){
         funciones.listarPersonas(personas);
         break
         default:
-        console.log("\n***********************************************************")
-        console.log("La lista de comandos disponibles es: nuevo, borrar, listar")
-        console.log("***********************************************************\n")
+        console.log("\n*******************************************************************")
+        console.log("La lista de comandos disponibles es: nuevo, borrar, listar, modificar")
+        console.log("*******************************************************************\n")
         break;
 
 }
