@@ -12,12 +12,6 @@
   "colorFavorito": "azul"
  },
  {
-  "nombre": "Tincho",
-  "apellido": "dela patin",
-  "dni": 12312312,
-  "colorFavorito": "violeta"
- },
- {
   "nombre": "Matias",
   "apellido": "Peralta",
   "dni": "35234532",
@@ -36,8 +30,14 @@
   "colorFavorito": "celeste"
  },
  {
+  "nombre": "Tincho",
+  "apellido": "Bosch",
+  "dni": 12312312,
+  "colorFavorito": "violeta"
+ },
+ {
   "nombre": "Patricia",
-  "apellido": "Estevez",
+  "apellido": "Romero",
   "dni": 12312311,
   "colorFavorito": "rosa"
  }
