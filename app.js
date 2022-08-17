@@ -12,9 +12,8 @@ switch(parametro){
        console.log("****************\n")
         break;
     case "modificar":
-        modificarPersona(argv[3], argv[4], argv[5], personas);
-        //aca el guardado en el archivo.
-        //
+        let arrayActualizado = modificarPersona(argv[3], argv[4], argv[5], personas);
+        funciones.escribirArchivo(arrayActualizado);
         break;
 
      case "borrar":

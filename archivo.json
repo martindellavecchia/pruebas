@@ -1,11 +1,5 @@
 [
  {
-  "nombre": "lalala",
-  "apellido": "dv",
-  "dni": 12312311,
-  "colorFavorito": "rosa"
- },
- {
   "nombre": "Augusto",
   "apellido": "Surango",
   "dni": 54000001,
@@ -37,8 +31,14 @@
  },
  {
   "nombre": "Silva",
-  "apellido": "Spindola",
+  "apellido": "Romero",
   "dni": "8394930",
   "colorFavorito": "celeste"
+ },
+ {
+  "nombre": "Patricia",
+  "apellido": "Estevez",
+  "dni": 12312311,
+  "colorFavorito": "rosa"
  }
 ]

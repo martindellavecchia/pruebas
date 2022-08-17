@@ -23,7 +23,9 @@ let fun = {
     modificarPersona: function(cualquierClave, suValor, dni, arrayPersonas){
         let per = fun.buscarPorDNI(dni, arrayPersonas);
         per[`${cualquierClave}`] = suValor;
-        console.log(per);
+        let arrayActualizado = fun.borrarPersona(arrayPersonas, dni);
+       arrayActualizado.push(per);
+       return arrayActualizado;
         
 
     },
