@@ -1,6 +1,6 @@
 const { argv } = require("process");
 const { modificarPersona } = require("./funciones.js");
-let funciones   = require("./funciones.js")
+const funciones   = require("./funciones.js")
 let personas = funciones.abrirArchivo();
 let parametro = process.argv[2];
 switch(parametro){
