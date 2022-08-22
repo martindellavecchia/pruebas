@@ -4,6 +4,7 @@ const { argv } = require("process");
 const { modificarPersona } = require("./funciones.js");
 const funciones   = require("./funciones.js")
 const express = require("express");
+const path = require("path");
 
 const app = express();
 let personas = funciones.abrirArchivo();
@@ -42,5 +43,10 @@ switch(parametro){
 }
 app.listen(3000, () => console.log("Acaba de levantar el server en el puerto 3000"))
 app.get("/", (req, res) => {
-    res.send(`Bienvenido al server`) 
+    let rutaAbsoluta = path.resolve(__dirname, "./index.html");
+    res.sendFile(rutaAbsoluta); 
+})
+app.get("/gatito", (req, res)=> {
+    let rutaAbsoluta = path.resolve(__dirname, "./IMG/gatito.jpg")
+    res.sendFile(rutaAbsoluta);
 })
