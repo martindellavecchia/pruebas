@@ -1,6 +1,11 @@
+//importando modulos
+const { appendFile } = require("fs");
 const { argv } = require("process");
 const { modificarPersona } = require("./funciones.js");
 const funciones   = require("./funciones.js")
+const express = require("express");
+
+const app = express();
 let personas = funciones.abrirArchivo();
 let parametro = process.argv[2];
 switch(parametro){
@@ -35,3 +40,7 @@ switch(parametro){
         break;
 
 }
+app.listen(3000, () => console.log("Acaba de levantar el server en el puerto 3000"))
+app.get("/", (req, res) => {
+    res.send(personas)
+})
