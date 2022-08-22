@@ -42,5 +42,5 @@ switch(parametro){
 }
 app.listen(3000, () => console.log("Acaba de levantar el server en el puerto 3000"))
 app.get("/", (req, res) => {
-    res.send(personas)
+    res.send(`Bienvenido al server`) 
 })
