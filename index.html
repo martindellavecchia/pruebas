@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Express WebServer</title>
 </head>
 <body>
-    <h1>Este es un HTML enviado como archivo desde un server en express</h1>
-    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum sit sed dolorum obcaecati, nesciunt culpa molestiae, nemo nostrum unde voluptatem officia, distinctio consectetur laboriosam numquam. Inventore, omnis. Impedit, ipsum?</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, laboriosam eveniet, voluptas error iste neque doloremque ratione harum odit magni quam corrupti at ab labore quasi fuga eum similique laborum?</p>
+    <header>
+        <h1>Este es un HTML enviado como archivo desde un server en express</h1>
+    </header>
+    <nav> 
+        <ul>
+            <li>Navigation Item 1</li>
+            <li>Navigation Item 2</li>
+            <li>Navigation Item 3</li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <hgroup>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum sit sed dolorum obcaecati, nesciunt culpa molestiae, nemo nostrum unde voluptatem officia, distinctio consectetur laboriosam numquam. Inventore, omnis. Impedit, ipsum?</h1>
+                <h2>Subtitulo del primer articulo</h2>    
+            </hgroup>
+            <time datetime="23-8-2022"> publicado el 23-8-2022 </time>
+            <p>Lorem ipsum dolor sit amet consectetur <small>adipisicing elit.</small> Repellendus id ducimus tempora minus beatae. Sequi deserunt officia, sunt, pariatur <cite>consequuntur sint</cite>, consequatur excepturi officiis natus qui repudiandae maxime corrupti accusamus!</p>
+        <footer>
+            <p>Este es el footer del primer articulo.</p>
+        
+        </footer>
+        <address>
+            <a href="www.google.com" >visita mi sitio web </a>
+        </address>
+        <img src="IMG/gatito.jpg" />
+        </article>
+        <article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque laudantium ab similique repellendus earum harum pariatur animi ea cupiditate corporis voluptatibus doloribus dolore, doloremque aliquid accusantium facilis at velit temporibus corrupti neque iste? Molestias, eos, culpa voluptatem dolorem, nihil quis architecto ex facilis accusamus mollitia officia reiciendis pariatur consequuntur? Ipsa velit id inventore provident debitis, nobis sequi, itaque facilis non corporis vitae doloremque exercitationem? Repellendus, nisi aut. Laudantium saepe harum temporibus commodi aut quisquam doloribus magnam, fugiat facilis fuga quia ab dignissimos dolores deleniti nesciunt officia maiores vero, labore quasi ad quae error! Mollitia ipsum sed numquam, itaque reprehenderit earum porro ducimus alias fugiat cum a maxime cupiditate aut corrupti molestias reiciendis facilis eaque eveniet, velit perspiciatis pariatur deleniti laborum unde soluta. Laboriosam at voluptate suscipit nisi. Iure facere ipsam qui sequi doloremque, recusandae dolorem quaerat. Distinctio minus aperiam voluptas perferendis repudiandae cupiditate voluptates architecto sequi dolor repellendus exercitationem, delectus provident a blanditiis voluptatibus error libero recusandae. Necessitatibus, neque libero atque, ipsum assumenda fugit modi incidunt nihil tempora recusandae quia voluptatem ea nisi impedit suscipit dolorem magnam? Eveniet, reprehenderit odit nesciunt tempore, provident laborum cum quaerat quo optio sint repudiandae est excepturi laudantium, explicabo ullam dolore ducimus distinctio! Ex, sapiente!</p>
+        </article>
+    </section> 
+    <aside>
+        <blockquote cite="http://faztweb.com">
+            Cita de un sitio wweb
+        </blockquote>
+
+        Acerca De
+    </aside>
+    <footer>
+        Derechos reservados 2010-2018
+    </footer>
+
     <script>
         let nom = prompt("Ingresa tu nombre")
         alert(`Hola ${nom} se levanto el server web con Express`)
