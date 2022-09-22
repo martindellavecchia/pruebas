@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: 1px red solid;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.seccion-izq{
+    border: 1px blue solid;
+    background-color: lightblue;
+    flex-grow: 0.5;
+    height: 100px;
+
+}
+.seccion-medio{
+    border: 1px solid green;
+    background-color: lightgreen;
+    flex-grow: 2;
+    height: 100px;
+
+
+}
+
+.seccion-der{
+    border: 1px solid violet;
+    background-color: lightpink;
+    flex-grow: 1;
+    height: 100px;    
+}
+
+.seccion-der ul{
+    align-self: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    position: relative;
+    top: 40%;
+    
+}
+
+.seccion-izq img{
+    width: 100px;
+    margin: 2px;
+    
+}
+
